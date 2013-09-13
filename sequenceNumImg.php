@@ -1,0 +1,1 @@
+<?php class Sequence { public static $prochainNumImg=9; } ?>

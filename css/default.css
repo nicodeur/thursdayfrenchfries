@@ -1,0 +1,96 @@
+/* charte graphique :
+http://colorschemedesigner.com/#0A61Tw0w0w0w0
+ */
+
+body {
+	background-color : white;	
+}
+
+#logo {
+	background: url("../images/logo.jpg") 0px 0px no-repeat;
+	width : 200px;
+	height : 100px;
+	float : left;
+	position : absolute;
+	z-index : 2;
+}
+
+#menu {	
+	height : 100px;
+	width : 100%;
+	margin-top : -8px;
+	margin-left : -8px;
+}
+
+#footer {
+	background-color : #b30d00;	
+	width : 110%;
+	margin-left : -10px;
+	height : 40px;
+}
+
+
+#menu #plan{
+	width : 100%;
+	height : 47px;
+	margin-left : 100px;
+	background-color : #b30d00;	
+	border-top : 1px solid #A65500;/*#FF8300;*/
+	border-right : 1px solid #A65500;/*#FF8300;*/
+	border-bottom : 1px solid #A65500;/*#FF8300;*/	
+	border : 0px 1px 1px 1px;
+	z-index : 1;
+	margin-top : -10px;
+	padding-left : 90px;
+	padding-top : 50px;
+	
+}
+
+#menu #plan li a {
+	text-decoration : none;
+	color : #fef8f6;
+	font-size : 28px;
+	padding-left : 20px;
+	padding-right : 20px;
+	border-right : 1px solid #A65500;	
+	font-family : impact;
+}
+
+#footer li, #menu li{
+	display : inline;
+}
+
+#container {		
+	height : 500px;	
+	width : 70%;	
+	top : 113px;
+}
+
+#liens {
+	float : right;
+	z-index : 4;
+	margin-top : 3px;
+	color : #fef8f6;
+	margin-right : 200px;
+}
+
+#background {
+	background: url("../images/fond.jpg") 0px 0px no-repeat;
+	width : 100%;
+	height : 100%;
+	position : absolute;
+	z-index : -1;
+	opacity : 0.4;
+}
+
+
+h1 {
+	color : #024E68;
+	text-align : center;
+}
+
+p {
+	color : #216278;
+	padding : 15px;
+}
+	

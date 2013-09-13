@@ -1,0 +1,118 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: #222222;
+	background-image : url("../img/noir.jpg");
+	color : #eeeeee;
+	font-size : 16px;
+}
+
+#coinLogo {
+	padding : 10px;
+	display : inline-block;
+	background-image : url("../img/fond_banniere.png");
+	background-repeat:no-repeat;
+	background-position : rigth;
+	float : left;
+	width : 200px;
+	height : 157px;
+}
+	
+#banniere{
+	width : 870px;
+	float : left;
+}
+
+header figure {
+	float : left;	
+	margin : 0px;
+}
+
+header {
+	margin : auto;
+	width : 1100px;	
+}
+nav {
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+  	border-radius: 8px;
+	display : inline-block;
+	width : 200px;
+  	background-image : url("../img/inox.jpg");
+	padding : 10px;
+	vertical-align : top;
+}
+
+#content {
+	-moz-border-radius: 8px;
+  	-webkit-border-radius: 8px;
+  	background-image : url("../img/test_inox3.jpg");
+  	border-radius: 8px;
+	display : inline-block;
+	width : 850px;
+	/*background-color : #555555;*/	
+	padding : 10px;
+}
+
+footer {	
+	position : fixed;
+	bottom : 0px;
+	left : 0px;
+	width : 100%;
+	background-color : #555555;
+	text-align : center;
+	
+}
+
+footer a {
+	color : white;
+}
+footer img {
+	height : 37px;
+	float : right;
+}
+
+#centre {
+	margin :auto;
+	width : 1100px;	
+}
+
+#grille {
+	margin : auto;
+	width : 600px;	
+}
+
+#grille img {
+	width : 190px;
+	-moz-box-shadow: 1px 1px 13px #999; 
+ 	-webkit-box-shadow: 1px 1px 13px #999; 
+  	box-shadow: 1px 1px 13px #999;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* ***************** Le menu **************** */
+nav {
+	text-align : center;	
+}
+
+nav a {
+	color : #ee7700;
+	margin-bottom : 7px;
+	text-decoration : none;
+	display : block;
+}
+
+nav a:hover {
+	-moz-border-radius: 4px;
+  	-webkit-border-radius: 4px;
+  	border-radius: 4px;
+	background-color : #eeeeee;
+	/*font-weight: bold;*/
+}
+
+nav h1 {
+	margin-bottom : 15px;	
+	font-size : 19px;	
+}
